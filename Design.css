@@ -1,0 +1,50 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+/***** RESET *****/
+
+body{padding: 0 0 150px 0;}
+.diskutu{width:760px; height:686px; margin:10px auto;}
+.menusecenekleri{width:384px; height:40px; margin:0 0 0 11px}
+.menusecenekleri ul li{float: left;}
+.menusecenekleri ul li a{display: block; height:50px; text-indent: -2000px;}
+.menusecenekleri ul li#about a{background:url(images/css-baliklama16.gif) no-repeat; background-position: 0 -100px; width:71px;}
+.menusecenekleri ul li#services a{background:url(images/css-baliklama17.gif) no-repeat; background-position: 0 0; width:84px;}
+.menusecenekleri ul li#portfolio a{background:url(images/css-baliklama18.gif) no-repeat; background-position: 0 0; width:95px;}
+.menusecenekleri ul li#contactus a{background:url(images/css-baliklama19.gif) no-repeat; background-position: 0 0; width:106px;}
+.menusecenekleri ul li#services a:hover{background-position: 0 -100px;}
+.menusecenekleri ul li#portfolio a:hover{background-position: 0 -100px;}
+.menusecenekleri ul li#contactus a:hover{background-position: 0 -100px;}
+
+.picture{width:760px; height:150px; float: left; background:url(images/about.jpg) no-repeat;}
+.picturewriting2div{width:250px; height:30px; color:#fff; font: 19px verdana; float: right; margin:62px 3px 0 0;}
+.picturewriting1{font:bold 21px verdana;}
+
+.solorta{width:360px; height:340px; float: left ; padding: 0 50px 0 10px; font: 14px tahoma; color: #999898;}
+.aboutpart{color:#fda500; font: bold 16px tahoma; margin:20px 0 0 0; display: block; width:30px; height:15px;}
+.solortaenlightenyazisi{color:#343434;}
+.contactusbasligi{font: bold 18px tahoma; color:#d23939; text-transform: uppercase;}
+
+
+.metinler{width:340px; height:275px; float: left; font: 14px tahoma; color: #999898; padding: 5px 0 0 0;}
+.footer{width:760px; height:114px; float: left; border-top: 2px solid #d3d3d3; margin:30px 0 0 0;}
+.footersol{width:280px; height:84px; float: left; font: 12px tahoma; color: #b4b4b4; padding:30px 0 0 0;}
+.footersag{width:340px; height:84px; float: left; font: 12px tahoma; color: #b4b4b4; padding: 30px 0 0 140px ;}
+.footersag a{font: 12px tahoma; color: #b4b4b4; text-decoration: none; text-transform: capitalize;}
+.footersag a:hover{color:#f5a209 ; text-decoration: underline;}
+.footersagservices{color: #f5a209;}
